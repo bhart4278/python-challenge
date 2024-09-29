@@ -67,4 +67,4 @@ with open(file_to_output, "w") as txt_file:
     # Generate and print the winning candidate summary
 
 
-    # Save the winning candidate summary to the text file hello1
+    # Save the winning candidate summary to the text file hello
