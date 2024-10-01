@@ -75,7 +75,7 @@ print(f"Greatest Decrease in Profits: {greatest_decrease[0]} (${greatest_decreas
 with open(file_to_output, "w") as txt_file:
     txt_file.write("Financial Analysis\n")
     txt_file.write("-----------------------------------\n")
-    txt_file.write(f"Total Months: ${total_months}\n")
+    txt_file.write(f"Total Months: {total_months}\n")
     txt_file.write(f"Total: ${total_net}\n")
     txt_file.write(f"Average Change: ${average_net_change}\n")
     txt_file.write(f"Greatest Increase in Profits: {greatest_increase[0]} (${greatest_increase[1]})\n")
