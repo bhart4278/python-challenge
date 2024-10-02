@@ -63,7 +63,7 @@ average_net_change = sum(net_change_list)/len(net_change_list) if net_change_lis
 
 
 # Print the output to terminal
-print("Financial Analysis")
+print("\nFinancial Analysis")
 print("-----------------------------------")
 print(f"Total Months: {total_months}")
 print(f"Total: ${total_net}")
