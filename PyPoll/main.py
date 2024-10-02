@@ -16,8 +16,6 @@ max_votes = 0
 # Define lists and dictionaries to track candidate names and vote counts
 candidate_votes = {}
 
-# Winning Candidate and Winning Count Tracker
-
 
 # Open the CSV file and process it
 with open(file_to_load) as election_data:
@@ -43,7 +41,7 @@ with open(file_to_load) as election_data:
             candidate_votes[candidate] = 0
         
         candidate_votes[candidate] += 1
-        
+
     # Print the total vote count (to terminal)
     print("\nElection Results")
     print("--------------------------------")
