@@ -25,11 +25,6 @@ with open(file_to_load) as financial_data:
     # Skip the header row
     header = next(reader)
 
-    # Extract first row to avoid appending to net_change_list
-    
-
-    # Track the total and net (profit) change
-
     # Process each row of data
     for row in reader:
 
@@ -58,9 +53,6 @@ with open(file_to_load) as financial_data:
 
 # Calculate the average net change across the months
 average_net_change = sum(net_change_list)/len(net_change_list) if net_change_list else 0
-
-# Generate the output summary
-
 
 # Print the output to terminal
 print("\nFinancial Analysis")
