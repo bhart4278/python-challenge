@@ -51,7 +51,7 @@ with open(file_to_load) as financial_data:
         previous_profit = current_profit
 
 
-# Calculate the average net change across the months
+# Calculate the average change
 average_net_change = sum(net_change_list)/len(net_change_list) if net_change_list else 0
 
 # Print the output to terminal
