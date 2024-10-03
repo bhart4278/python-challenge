@@ -14,8 +14,8 @@ Your analysis should align with the following results:
 
 Financial Analysis
 ----------------------------
-Total Months: 86
-Total: $22564198
+Total Months: 86 \n
+Total: $22564198 \n
 Average Change: $-8311.11
 Greatest Increase in Profits: Aug-16 ($1862002)
 Greatest Decrease in Profits: Feb-14 ($-1825558)
